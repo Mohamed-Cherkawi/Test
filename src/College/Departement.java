@@ -28,8 +28,8 @@ public class Departement {
         return counter ;
     }
 
-    public String getDepartementNameById(int key){
-        return DepartementArray.get(key);
+    public String getDepartementNameById(byte key){
+        return DepartementArray.get((int)key);
     }
     public void addDepartement(){}
 

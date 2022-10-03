@@ -10,12 +10,12 @@ public class Matiere {
 
 // Salle Class
     public Matiere() {
-        matiereArray.put(1, "Physique");
-        matiereArray.put(2, "Science Vie & Terre");
-        matiereArray.put(3, "Programmation");
-        matiereArray.put(4 , "Sport");
-        matiereArray.put(5 , "Philosophie");
-        matiereArray.put(6 , "Mathematique");
+        this.matiereArray.put(1, "Physique");
+        this.matiereArray.put(2, "Science Vie & Terre");
+        this.matiereArray.put(3, "Programmation");
+        this.matiereArray.put(4 , "Sport");
+        this.matiereArray.put(5 , "Philosophie");
+        this.matiereArray.put(6 , "Mathematique");
     }
     public void setMatiereArra(HashMap<Integer, String> matiereArra) {
         this.matiereArray = matiereArra;
@@ -31,7 +31,7 @@ public class Matiere {
     }
 
     public String getMatiereNameById(byte key){
-        return matiereArray.get(key);
+        return matiereArray.get((int)key);
     }
     public byte getId() {
         return id;
