@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7f0bda8-b612-4e28-bc66-940b88cbde39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WinAcademy_TerminalApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/Departement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/StudyEnv/Evaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/StudyEnv/Matiere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/StudyEnv/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/StudyEnv/Salle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/template/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/template/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/users/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/users/Enseignant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/College/users/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="a7f0bda8-b612-4e28-bc66-940b88cbde39" name="Changes" comment="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/College.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/Departement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/Departement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/StudyEnv/Matiere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/StudyEnv/Matiere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/template/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/template/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/template/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/template/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/users/Enseignant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/users/Enseignant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/College/users/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/users/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +62,28 @@
       <option name="presentableId" value="Default" />
       <updated>1664445814678</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished The Menu overview for the departement and created some methods to &#10;validate user input ( Check Type &amp; lengths )">
+      <created>1664710655100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664710655100</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added A HashMap in the constructor that adds all the departements available and provided some methods to loop through the departements array hashmap and to get data by its key">
+      <created>1664817094686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664817094686</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key">
+      <created>1664817150206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664817150206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,11 +91,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished The Menu overview for the departement and created some methods to &#10;validate user input ( Check Type &amp; lengths )" />
+    <MESSAGE value="Added A HashMap in the constructor that adds all the departements available and provided some methods to loop through the departements array hashmap and to get data by its key" />
+    <MESSAGE value="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
