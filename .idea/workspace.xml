@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7f0bda8-b612-4e28-bc66-940b88cbde39" name="Changes" comment="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key">
+    <list default="true" id="a7f0bda8-b612-4e28-bc66-940b88cbde39" name="Changes" comment="Create the required code to get things stand out , also create some static methods that helps in ( Requesting User input data - Validation ...) , to avoid repeating code and ensure code reusibility">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/College/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/College.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/College/Departement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/Departement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/College/StudyEnv/Matiere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/StudyEnv/Matiere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/College/template/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/template/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/College/template/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/template/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/College/users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/users/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/College/users/Enseignant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/users/Enseignant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/College/users/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/College/users/Etudiant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +46,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +79,63 @@
       <option name="project" value="LOCAL" />
       <updated>1664817150206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Provided a constructor to give the value for each property in the class by the user and overided the toString method to print out the object proprely">
+      <created>1664819192141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819192141</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Casted some key values to int to print out the value in the Hashmap">
+      <created>1664819316646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819316646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create Constructor for the abstract user class so other subclasses can inizialise these properties in their constructor &amp; Create setters and getters for its properties">
+      <created>1664819385716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819385716</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes in xml workspace file">
+      <created>1664819419960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819419960</updated>
+    </task>
+    <task id="LOCAL-00008" summary="put values to A HashMap in the constructor that adds all the roles available and provided some methods to loop through the roles array hashmap and to get data by its key">
+      <created>1664819541739</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819541739</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Code refactoring">
+      <created>1664819576058</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819576058</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add a super constructor to inisialize values">
+      <created>1664819599564</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819599564</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create the required code to get things stand out , also create some static methods that helps in ( Requesting User input data - Validation ...) , to avoid repeating code and ensure code reusibility">
+      <created>1664819760397</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819760397</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +149,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -113,7 +165,34 @@
     <MESSAGE value="Finished The Menu overview for the departement and created some methods to &#10;validate user input ( Check Type &amp; lengths )" />
     <MESSAGE value="Added A HashMap in the constructor that adds all the departements available and provided some methods to loop through the departements array hashmap and to get data by its key" />
     <MESSAGE value="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added A HashMap in the constructor that adds all the subjects available and provided some methods to loop through the subjects array hashmap and to get data by its key" />
+    <MESSAGE value="Provided a constructor to give the value for each property in the class by the user and overided the toString method to print out the object proprely" />
+    <MESSAGE value="Casted some key values to int to print out the value in the Hashmap" />
+    <MESSAGE value="Create Constructor for the abstract user class so other subclasses can inizialise these properties in their constructor &amp; Create setters and getters for its properties" />
+    <MESSAGE value="changes in xml workspace file" />
+    <MESSAGE value="put values to A HashMap in the constructor that adds all the roles available and provided some methods to loop through the roles array hashmap and to get data by its key" />
+    <MESSAGE value="Code refactoring" />
+    <MESSAGE value="add a super constructor to inisialize values" />
+    <MESSAGE value="Create the required code to get things stand out , also create some static methods that helps in ( Requesting User input data - Validation ...) , to avoid repeating code and ensure code reusibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the required code to get things stand out , also create some static methods that helps in ( Requesting User input data - Validation ...) , to avoid repeating code and ensure code reusibility" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/College/Departement.java</url>
+          <line>18</line>
+          <properties class="College.Departement" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
