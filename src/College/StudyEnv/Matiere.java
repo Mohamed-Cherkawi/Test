@@ -4,34 +4,17 @@ import java.util.HashMap;
 
 public class Matiere {
 
-    private HashMap<Integer, String> matiereArray = new HashMap<>();
     private byte id ;
     private String nom ;
 
 // Salle Class
-    public Matiere() {
-        this.matiereArray.put(1, "Physique");
-        this.matiereArray.put(2, "Science Vie & Terre");
-        this.matiereArray.put(3, "Programmation");
-        this.matiereArray.put(4 , "Sport");
-        this.matiereArray.put(5 , "Philosophie");
-        this.matiereArray.put(6 , "Mathematique");
+    public Matiere(byte id , String nom) {
+        this.id = id;
+        this.nom = nom;
     }
-    public void setMatiereArra(HashMap<Integer, String> matiereArra) {
-        this.matiereArray = matiereArra;
-    }
-
-    public int loopMatiereArr_getNumOfKeys(){
-        int counter = 0;
-        for (int key : matiereArray.keySet()) {
-            System.out.println("id_matiere : { " + key + " } -->> : [ " + matiereArray.get(key) + " ]");
-            counter++;
-        }
-        return counter ;
-    }
-
-    public String getMatiereNameById(byte key){
-        return matiereArray.get((int)key);
+    @Override
+    public String toString(){
+        return "{ \n matiere_id : " + this.getId() + " , \n Nom : " + this.getNom() + " \n} \n" ;
     }
     public byte getId() {
         return id;
