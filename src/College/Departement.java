@@ -6,36 +6,31 @@ public class Departement {
 
     private HashMap<Integer, String> DepartementArray = new HashMap<>();
     private byte id ;
+
     private String nom ;
     // College Class
     // Responsable : Enseignant
 
-    public Departement() {
-        DepartementArray.put(1 , "Sciences");
-        DepartementArray.put(2 , "Expériences");
-        DepartementArray.put(3 , "Sport");
-        DepartementArray.put(4 , "Litérature");
-        DepartementArray.put(5 , "Languages");
+    public Departement(byte id , String nom) {
+        this.id = id;
+        this.nom = nom;
     }
-
-    public int loopDepartsArr_getNumOfKeys(){
-        // Looping through the Hash
-        int counter = 0 ;
-        for (int key : DepartementArray.keySet()) {
-            System.out.println("id_departement : { " + key + " } -->> : [ " + DepartementArray.get(key) + " ]");
-            counter++;
-        }
-        return counter ;
+    @Override
+    public String toString(){
+        return "\n{ \n Departement_id : " + this.getId() + " , \n Nom : " + this.getNom() + " \n} ,\n" ;
     }
-
-    public String getDepartementNameById(byte key){
-        return DepartementArray.get((int)key);
-    }
-    public void addDepartement(){}
 
     public void showDepartements(){}
 
     public void showDepartementById(){}
 
     public void deleteDepartementById(){}
+
+    public byte getId() {
+        return id;
+    }
+    public String getNom() {
+        return nom;
+    }
+
 }
