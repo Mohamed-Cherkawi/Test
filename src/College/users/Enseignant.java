@@ -8,12 +8,12 @@ public class Enseignant extends User {
 
     // User Class
     private String dateFonction;
-    private String matiere;
-    private String departement;
+    private Matiere matiere;
+    private Departement departement;
     //Departement
 
 
-    public Enseignant(short id, String nom, String prenom, String telephone, String email, String dateFonction, String matiere, String departement) {
+    public Enseignant(short id, String nom, String prenom, String telephone, String email, String dateFonction, Matiere matiere, Departement departement) {
         super(id, nom, prenom, telephone, email);
         this.dateFonction = dateFonction;
         this.matiere = matiere;
@@ -34,11 +34,11 @@ public class Enseignant extends User {
         return dateFonction;
     }
 
-    public String getMatiere() {
+    public Matiere getMatiere() {
         return matiere;
     }
 
-    public String getDepartement() {
+    public Departement getDepartement() {
         return departement;
     }
     @Override
